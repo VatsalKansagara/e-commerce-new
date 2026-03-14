@@ -5,7 +5,7 @@ import { CgClose } from 'react-icons/cg'
 import { FaCaretDown } from 'react-icons/fa'
 import { IoCartOutline } from 'react-icons/io5'
 import { Link, NavLink } from 'react-router-dom'
-import { useCart } from '../context/CartContext'
+import { useCart } from '../Context/CartContext'
 import { HiMenuAlt1, HiMenuAlt3 } from 'react-icons/hi'
 import ResponsiveMenu from './ResponsiveMenu'
 
