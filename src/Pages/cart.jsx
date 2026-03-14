@@ -99,7 +99,7 @@ export default function Cart({location, getLocation}) {
                 <hr  className='text-gray-200 mt-2'/>
                 <div className='flex justify-between items-center'>
                   <h1 className='font-semibold text-lg'>Grand total</h1>
-                  <p className='font-semibold text-lg'>${totalPrice + 5}</p>
+                  <p className='font-semibold text-lg'>${Number(totalPrice) + 5}</p>
                 </div>
                 <div>
                   <h1 className='font-semibold text-gray-700 mb-3 mt-7'>Apply Promo Code</h1>
