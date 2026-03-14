@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* cleark user button adjust */
+.cl-avatarBox{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Carousel Arrow */
+.arrow{
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none !important;
+}
+
+/* Input Color */
+input{
+    background-color: #fff;
+    accent-color: red;
+    border: 1px solid #ccc;
+    color: #333;
+}
